@@ -2,10 +2,9 @@
 Job search RESTful API written with LoopBack (Node.js).
 
 [![Build Status](https://travis-ci.org/marioluan/nodejs-job-search.svg?branch=master)](https://travis-ci.org/marioluan/nodejs-job-search)
-[![Code Climate](https://codeclimate.com/github/marioluan/nodejs-job-search/badges/gpa.svg)](https://codeclimate.com/github/marioluan/nodejs-job-search)
+[![codebeat badge](https://codebeat.co/badges/7653d11e-9f2b-411a-97ff-ccf4214bc298)](https://codebeat.co/projects/github-com-marioluan-nodejs-job-search)
+[![Coverage Status](https://coveralls.io/repos/github/marioluan/nodejs-job-search/badge.svg?branch=master)](https://coveralls.io/github/marioluan/nodejs-job-search?branch=master)
 [![Dependency Status](https://gemnasium.com/badges/github.com/marioluan/nodejs-job-search.svg)](https://gemnasium.com/github.com/marioluan/nodejs-job-search)
-[![Issue Count](https://codeclimate.com/github/marioluan/nodejs-job-search/badges/issue_count.svg)](https://codeclimate.com/github/marioluan/nodejs-job-search)
-[![Test Coverage](https://codeclimate.com/github/marioluan/nodejs-job-search/badges/coverage.svg)](https://codeclimate.com/github/marioluan/nodejs-job-search/coverage)
 
 ***Note: to run the app using Docker, head over [README-docker.md](README-docker.md)***
 
