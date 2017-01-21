@@ -2,3 +2,6 @@ language: node_js
 node_js:
   - "6.9.4"
 after_success: npm run coverage
+addons:
+    code_climate:
+        repo_token: da5e794cdf46ba8befe700f4159302acbb74d71ebbec1b266da85d71ecd159a2
