@@ -2,6 +2,8 @@
 Job search RESTful API written with LoopBack (Node.js).
 
 [![Build Status](https://travis-ci.org/marioluan/nodejs-job-search.svg?branch=master)](https://travis-ci.org/marioluan/nodejs-job-search)
+[![Dependency Status](https://gemnasium.com/badges/github.com/marioluan/nodejs-job-search.svg)](https://gemnasium.com/github.com/marioluan/nodejs-job-search)
+
 --
 
 **Pre-requisites:**
