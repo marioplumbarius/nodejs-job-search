@@ -1,0 +1,15 @@
+version: '2'
+services:
+    mongo:
+        image: mongo:3.4.1
+        ports:
+        - "27017:27017"
+    web:
+        env_file:
+        - .dockerenv
+        build: .
+        command: npm start
+        ports:
+        - "3000:3000"
+        depends_on:
+        - mongo

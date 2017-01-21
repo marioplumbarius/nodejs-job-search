@@ -4,33 +4,27 @@ Job search RESTful API written with LoopBack (Node.js).
 [![Build Status](https://travis-ci.org/marioluan/nodejs-job-search.svg?branch=master)](https://travis-ci.org/marioluan/nodejs-job-search)
 [![Dependency Status](https://gemnasium.com/badges/github.com/marioluan/nodejs-job-search.svg)](https://gemnasium.com/github.com/marioluan/nodejs-job-search)
 
-***Note: to run the app using Docker, head over [README-docker.md](README-docker.md)***
+***Note: to run the app using your local environment, head over [README.md](README.md)***
 
 --
 
 **Pre-requisites:**
-- node (v6.9.4)
-- npm (v3.10.10)
-- mongodb (v3.4.1)
-
-## Install dependencies
-```bash
-npm install
-```
+- docker (v1.13.0)
+- docker-compose (v1.10.0-rc2)
 
 ## Test
 ```bash
-npm test
+docker-compose run web npm test
 ```
 
 ## Load sample data into database
 ```bash
-npm run seed
+docker-compose run web npm run seed
 ```
 
 ## Start app
 ```bash
-npm start
+docker-compose up -d
 ```
 
 ## Featured operations

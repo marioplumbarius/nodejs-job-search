@@ -7,7 +7,8 @@
     "start": "node .",
     "test": "NODE_ENV=test nyc --reporter=html --reporter=text ./node_modules/mocha/bin/mocha --recursive",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "posttest": "npm run lint && nsp check"
+    "posttest": "npm run lint && nsp check",
+    "seed": "node ./bin/seed.js"
   },
   "dependencies": {
     "compression": "^1.0.3",
