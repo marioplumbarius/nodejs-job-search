@@ -12,5 +12,9 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "job": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
