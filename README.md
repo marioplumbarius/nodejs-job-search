@@ -1,5 +1,8 @@
 # nodejs-job-search
-Job search RESTful API written with Node.js.
+Job search RESTful API written with LoopBack (Node.js).
+
+[![Build Status](https://travis-ci.org/marioluan/nodejs-job-search.svg?branch=master)](https://travis-ci.org/marioluan/nodejs-job-search)
+--
 
 **Pre-requisites:**
 - node (v6.9.4)
