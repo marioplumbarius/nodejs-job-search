@@ -27,7 +27,7 @@ npm start
 ```
 
 ## Featured operations
-### Find jobs by title and description
+### Find jobs by `title` and `description`
 ```bash
 # fetches jobs by title containing 'analista'
 curl http://localhost:3000/jobs?filter[where][title][regexp]=/analista/i
@@ -39,13 +39,13 @@ curl http://localhost:3000/jobs?filter[where][description][regexp]=/operador%20d
 curl http://localhost:3000/jobs?filter[where][title][regexp]=/analista/i&filter[where][description][regexp]=/operador%20de%20caixa/i
 ```
 
-### Find jobs by city
+### Find jobs by `cidade`
 ```bash
-# fetch jobs by city containing 'joinville'
+# fetch jobs by cidade containing 'joinville'
 curl http://localhost:3000/jobs?filter[where][cidade][regexp]=/joinville/i
 ```
 
-### Order jobs by salario
+### Order jobs by `salario`
 ```bash
 # orders jobs by 'salario' in ascending order
 curl http://localhost:3000/jobs?filter[order]=salario%20ASC
