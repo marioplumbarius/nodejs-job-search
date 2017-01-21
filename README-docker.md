@@ -54,3 +54,18 @@ curl http://localhost:3000/jobs?filter[order]=salario%20ASC
 # orders jobs by 'salario' in descending order
 curl http://localhost:3000/jobs?filter[order]=salario%20DESC
 ```
+
+### Pagination
+```bash
+# skip
+http://localhost:3000/jobs?filter[skip]=10&filter[]
+
+# limit (default: 10, max: 20)
+http://localhost:3000/jobs?filter[limit]=10
+
+# count (total number of entries)
+http://localhost:3000/jobs/count
+
+# count (total number of matched entries)
+http://localhost:3000/jobs/count?[where][cidade][regexp]=/joinville/i
+```
