@@ -2,7 +2,10 @@
 Job search RESTful API written with LoopBack (Node.js).
 
 [![Build Status](https://travis-ci.org/marioluan/nodejs-job-search.svg?branch=master)](https://travis-ci.org/marioluan/nodejs-job-search)
+[![Code Climate](https://codeclimate.com/github/marioluan/nodejs-job-search/badges/gpa.svg)](https://codeclimate.com/github/marioluan/nodejs-job-search)
 [![Dependency Status](https://gemnasium.com/badges/github.com/marioluan/nodejs-job-search.svg)](https://gemnasium.com/github.com/marioluan/nodejs-job-search)
+[![Issue Count](https://codeclimate.com/github/marioluan/nodejs-job-search/badges/issue_count.svg)](https://codeclimate.com/github/marioluan/nodejs-job-search)
+[![Test Coverage](https://codeclimate.com/github/marioluan/nodejs-job-search/badges/coverage.svg)](https://codeclimate.com/github/marioluan/nodejs-job-search/coverage)
 
 ***Note: to run the app using Docker, head over [README-docker.md](README-docker.md)***
 
