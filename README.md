@@ -11,9 +11,12 @@ Job search RESTful API written with Node.js.
 npm install
 ```
 
+## Test
+```bash
+npm test
+```
+
 ## Load sample data into database
-It will delete all entries from the collection, load the sample file
-[sample-data.json](sample-data.json) and add an entry for each job.
 ```bash
 ./bin/seed.js
 ```
