@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-job-search",
+  "version": "0.0.1",
+  "description": "Job search RESTful API written with Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marioluan/nodejs-job-search.git"
+  },
+  "author": "Mario Luan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marioluan/nodejs-job-search/issues"
+  },
+  "homepage": "https://github.com/marioluan/nodejs-job-search#readme"
+}
