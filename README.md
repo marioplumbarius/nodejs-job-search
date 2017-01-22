@@ -1,6 +1,7 @@
 # nodejs-job-search
 Job search RESTful API written with LoopBack (Node.js).
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2743a2b540fa48d69126c80daa069e4c)](https://www.codacy.com/app/marioluan/nodejs-job-search?utm_source=github.com&utm_medium=referral&utm_content=marioluan/nodejs-job-search&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/marioluan/nodejs-job-search.svg?branch=master)](https://travis-ci.org/marioluan/nodejs-job-search)
 [![codebeat badge](https://codebeat.co/badges/7653d11e-9f2b-411a-97ff-ccf4214bc298)](https://codebeat.co/projects/github-com-marioluan-nodejs-job-search)
 [![Coverage Status](https://coveralls.io/repos/github/marioluan/nodejs-job-search/badge.svg?branch=master)](https://coveralls.io/github/marioluan/nodejs-job-search?branch=master)
